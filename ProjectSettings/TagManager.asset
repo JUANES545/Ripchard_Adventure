@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Camera
+  - Enemy
+  - NPC
+  - MovementZone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Sea
+    uniqueID: 2151773253
+    locked: 0
+  - name: Background
+    uniqueID: 1502537331
+    locked: 0
+  - name: Water
+    uniqueID: 3762644673
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Midleground
+    uniqueID: 968724421
+    locked: 0
+  - name: Foreground
+    uniqueID: 1645240619
+    locked: 0
+  - name: Buildground
+    uniqueID: 400462833
+    locked: 0
+  - name: Enemy
+    uniqueID: 862712867
+    locked: 0
+  - name: Player
+    uniqueID: 2198863573
+    locked: 0
+  - name: UI
+    uniqueID: 2338676261
+    locked: 0
