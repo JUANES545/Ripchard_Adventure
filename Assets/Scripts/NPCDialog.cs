@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 public class NPCDialog : MonoBehaviour
 {
     [SerializeField] private string npcName;
-    [SerializeField] string[] dialog;
+    [SerializeField] private string[] dialog;
     [SerializeField] private bool requiredQuest;
     [SerializeField] private int questID; 
     
@@ -16,8 +16,8 @@ public class NPCDialog : MonoBehaviour
     public bool playerInTheZone;
 
     private QuestManager _questManager;
-    
-    void Start()
+
+    private void Start()
     {
         _manager = FindObjectOfType<DialogManager>();
         _questManager = FindObjectOfType<QuestManager>();
